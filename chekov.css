@@ -17,3 +17,47 @@
 .LOPAKHIN{
     color: darkorange;
 }
+table,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    color: brown;
+}
+th{
+    text-align: center;
+    padding: 4px;
+}
+td{
+    text-align: left;
+    padding: 7px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: azure;
+}
+.LOPAKHIN:hover{
+    text-shadow: 1px 1px 6px  red ;
+
+}
+ul.navigation {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+ul.navigation li{
+    float: left;
+    display: inline;
+    background-color: cornflowerblue;
+}
+ul.navigation a{
+    display:block;
+
+}
+ul.navigation a:hover{
+    background-color:chocolate(115,0,255) ;
+    color: blue;
+}
